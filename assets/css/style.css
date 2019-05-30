@@ -90,7 +90,6 @@ nav .navbar-brand{
     color: #ffffff !important;
 }
 
-
 /* main */
   
 #main-container {
@@ -100,3 +99,11 @@ nav .navbar-brand{
   background: #ffffff;
   margin-bottom: 40px;
 }
+
+/*images- portfolio page*/
+
+.col-12{
+  margin-bottom: 30px;
+}
+
+

@@ -41,3 +41,51 @@ h3 {
   font-size: 22px;
 }
 
+
+ /* header-navbar */
+
+ #masthead {
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #ffffff;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+}
+ 
+.navbar{
+  padding:0;
+}
+.navbar-brand {
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+.navbar-nav{
+  margin-top: 25px;
+}
+
+.navbar-collapse{
+  flex-grow:0;
+}
+
+nav .navbar-nav a{
+  color:#999 !important;
+  border-left: 1px solid #efefef;
+}
+
+nav .navbar-nav a:first-child {
+    border-left: 0 none;
+  }
+
+nav .navbar-brand{
+    color: #ffffff !important;
+}

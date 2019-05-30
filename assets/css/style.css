@@ -89,3 +89,14 @@ nav .navbar-nav a:first-child {
 nav .navbar-brand{
     color: #ffffff !important;
 }
+
+
+/* main */
+  
+#main-container {
+  /* padding-top: 130px; */
+   min-height: calc(100vh - 70px); 
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  margin-bottom: 40px;
+}

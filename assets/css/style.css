@@ -1,5 +1,8 @@
 
  /* general */
+ *{
+   box-sizing: border-box;
+ }
 
  body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -7,6 +10,7 @@
   line-height: 34px;
   color: #777777;
   background: url("../images/concrete_seamless.png");
+  min-height:100vh;
 }
 
   
@@ -94,7 +98,7 @@ nav .navbar-brand{
 
 #main-container {
  
-  min-height: calc(100vh - 70px); 
+  min-height: calc(100vh - 200px); 
   border: 1px solid #dddddd;
   background: #ffffff;
   margin-bottom: 40px;
